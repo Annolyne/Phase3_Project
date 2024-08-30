@@ -18,17 +18,17 @@ This project leverages the SyriaTel Telecoms dataset to construct a sophisticate
 
 In today's highly competitive telecommunications landscape, characterized by rapid technological advancements and diverse communication alternatives, it is crucial for Syriatel to leverage predictive analytics to effectively manage customer churn. Our objective is to build a robust predictive model that will empower Syriatel to implement targeted strategies to minimize churn, enhance customer retention, and expand its customer base, ultimately fostering sustained growth and profitability.
 
-Key Benefits of the Predictive Model for Syriatel:
+**Key Benefits of the Predictive Model for Syriatel:**
 
-Churn Reduction: By accurately predicting customer churn, Syriatel can take proactive measures to retain customers, thereby increasing revenue and profitability.
+**Churn Reduction:** By accurately predicting customer churn, Syriatel can take proactive measures to retain customers, thereby increasing revenue and profitability.
 
-Market Position Enhancement: Improved customer retention will strengthen Syriatel's market position, supporting growth and maintaining a competitive edge.
+**Market Position Enhancement:** Improved customer retention will strengthen Syriatel's market position, supporting growth and maintaining a competitive edge.
 
-Enhanced Customer Experience: The model will facilitate more personalized and efficient customer service, leading to higher satisfaction and loyalty.
+**Enhanced Customer Experience:** The model will facilitate more personalized and efficient customer service, leading to higher satisfaction and loyalty.
 
-Increased Shareholder Value: A reduction in churn and growth in customer base will enhance revenue, driving up returns on investment (ROI) for shareholders.
+**Increased Shareholder Value:** A reduction in churn and growth in customer base will enhance revenue, driving up returns on investment (ROI) for shareholders.
 
-Employee Growth and Compensation: As Syriatel's financial performance improves, employees will benefit from enhanced compensation, bonuses, and career development opportunities.
+**Employee Growth and Compensation:** As Syriatel's financial performance improves, employees will benefit from enhanced compensation, bonuses, and career development opportunities.
 
 In summary, the adoption of this predictive model will not only optimize customer retention and satisfaction but also contribute to Syriatel's long-term success by boosting financial performance, market share, and employee rewards.
 
@@ -36,19 +36,19 @@ In summary, the adoption of this predictive model will not only optimize custome
 
 The SyriaTel Customer Churn dataset, sourced from Kaggle 'bigml_59c28831336c6604c800002a.csv' and located in the data directory, comprises 3,333 records with 21 features. It provides extensive details on telecom customers, including:
 
-Customer Identification: State, account length, area code, and phone number.
+*Customer Identification:* State, account length, area code, and phone number.
 
-Service Features: Availability of international and voicemail plans.
+*Service Features:* Availability of international and voicemail plans.
 
-Usage Statistics:
+*Usage Statistics:*
 
-Number of voicemails sent.
+ Number of voicemails sent.
 
-Total call metrics, including minutes and charges, segmented by day, evening, and night.
+*Total call metrics,* including minutes and charges, segmented by day, evening, and night.
 
-Metrics for international call usage.
+**Metrics for international call usage.**
 
-Customer Service Interactions: Frequency of calls to customer service.
+*Customer Service Interactions*: Frequency of calls to customer service.
 
 This dataset is instrumental for analyzing customer churn, offering insights into service usage patterns and customer behaviors critical for developing effective retention strategies.
 
@@ -81,11 +81,11 @@ Furthermore, the high volume of customer service calls generally indicates dissa
 
 Our analysis involved the development and evaluation of three distinct classification models to extract valuable insights and generate accurate predictions. The following provides a concise overview of each model employed:
 
-# Logistic Regression - AUC: 0.83
+ Logistic Regression - AUC: 0.83
 
-# Decision Tree - AUC: 0.88
+ Decision Tree - AUC: 0.88
 
-# Random Forest - AUC: 0.93
+ Random Forest - AUC: 0.93
 
 
 
