@@ -61,6 +61,8 @@ This thorough data exploration aims to identify potential correlations among fea
 ### Univariate Analysis
 The dataset contains 3,333 customers, with 483 ending their contracts. This means 14.5% of customers were lost.
 
+"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\univariate analysis1.png"
+
 The uneven split between churned and non-churned customers creates a data imbalance. We need to fix this before modeling to avoid inaccurate predictions.
 
 
@@ -68,9 +70,11 @@ The uneven split between churned and non-churned customers creates a data imbala
 
 International plan subscribers had higher churn rates (42.4%) than non-subscribers (11.5%), suggesting potential issues with the plan. Conversely, voice mail plan subscribers showed lower churn rates (8.7%) compared to non-subscribers (16.7%), indicating it may reduce churn likelihood.
 
+"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\biivariate analysis1.png"
 
 Feature correlations with customer churn using pairplots. This helps identify which factors may influence a customer's decision to leave.
 
+"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\Fearure correlation.png"
 
 There is a significant correlation between the frequency of customer service calls and churn rates. The data indicates that customers who make more than four service calls are substantially more likely to terminate their service.
 
@@ -87,7 +91,7 @@ Our analysis involved the development and evaluation of three distinct classific
 
  Random Forest - AUC: 0.93
 
-
+"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\ROC CURVE FOR THE THREE MODELS.png"
 
 ## Recommendation 
 
