@@ -59,9 +59,9 @@ Conducted a comprehensive exploration of the data through univariate, bivariate,
 This thorough data exploration aims to identify potential correlations among features and variable distributions, which will prove crucial for feature engineering and modeling.
 
 ### Univariate Analysis
-The dataset contains 3,333 customers, with 483 ending their contracts. This means 14.5% of customers were lost.
+The dataset contains 3,333 customers, with 483 ending their contracts. This means 14.5% of customers were lost
 
-"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\univariate analysis1.png"
+![univariate analysis1](https://github.com/user-attachments/assets/a767ec06-bba5-477e-9082-661a8a3bdb82)
 
 The uneven split between churned and non-churned customers creates a data imbalance. We need to fix this before modeling to avoid inaccurate predictions.
 
@@ -70,11 +70,13 @@ The uneven split between churned and non-churned customers creates a data imbala
 
 International plan subscribers had higher churn rates (42.4%) than non-subscribers (11.5%), suggesting potential issues with the plan. Conversely, voice mail plan subscribers showed lower churn rates (8.7%) compared to non-subscribers (16.7%), indicating it may reduce churn likelihood.
 
-"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\biivariate analysis1.png"
+![biivariate analysis1](https://github.com/user-attachments/assets/0f2fbdde-e2b5-4d89-9f21-4c23e52ce868)
+
 
 Feature correlations with customer churn using pairplots. This helps identify which factors may influence a customer's decision to leave.
 
-"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\Fearure correlation.png"
+![Fearure correlation](https://github.com/user-attachments/assets/2097c20b-9dc4-4055-a4f0-0103d4308c1b)
+
 
 There is a significant correlation between the frequency of customer service calls and churn rates. The data indicates that customers who make more than four service calls are substantially more likely to terminate their service.
 
@@ -91,7 +93,8 @@ Our analysis involved the development and evaluation of three distinct classific
 
  Random Forest - AUC: 0.93
 
-"C:\Users\Annolyne.Chemutai\Desktop\Phase 3 images\ROC CURVE FOR THE THREE MODELS.png"
+![ROC CURVE FOR THE THREE MODELS](https://github.com/user-attachments/assets/8a2696d5-4389-4fcf-bffd-a4ff9b301754)
+
 
 ## Recommendation 
 
